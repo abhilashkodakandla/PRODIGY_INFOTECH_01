@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: #e0f7fa; /* Light cyan background */
+    background: #e0f7fa;
     color: #333;
 }
 
@@ -10,7 +10,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #00695c; /* Teal */
+    background-color: #00695c;
     z-index: 1000;
     transition: background-color 0.3s, box-shadow 0.3s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@ nav {
 }
 
 nav.scrolled {
-    background-color: #004d40; /* Darker teal */
+    background-color: #004d40;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -38,7 +38,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 10px 15px;
-    color: #e0f7fa; /* Light cyan */
+    color: #e0f7fa;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -46,30 +46,60 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a.active {
-    color: #004d40; /* Darker teal */
-    background-color: #b2dfdb; /* Light teal */
+    color: #004d40;
+    background-color: #b2dfdb;
     transform: scale(1.1);
 }
 
 #content {
-    margin-top: 80px; /* Adjust for navbar height */
+    margin-top: 80px;
     padding: 20px;
 }
 
 section {
     margin: 50px 0;
-    background: #ffffff; /* White background */
-    padding: 20px;
+    background: #ffffff;
+    padding: 50px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-align: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column;   
+}
+
+
+#home {
+    height: 600px; 
+}
+
+#shop {
+    height: 500px; 
+}
+
+#categories {
+    height: 500px; 
+}
+
+#deals {
+    height: 500px; 
+}
+
+#cart {
+    height: 500px; 
+}
+
+#contact {
+    height: 500px; 
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #00695c; /* Teal */
+    background-color: #00695c;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -77,7 +107,7 @@ section {
 }
 
 .button:hover {
-    background-color: #004d40; /* Darker teal */
+    background-color: #004d40;
     transform: scale(1.05);
 }
 
@@ -104,7 +134,7 @@ blockquote {
     font-style: italic;
     background: #fff;
     padding: 20px;
-    border-left: 5px solid #00695c; /* Teal */
+    border-left: 5px solid #00695c;
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
